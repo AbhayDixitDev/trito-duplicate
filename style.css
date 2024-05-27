@@ -1,0 +1,900 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  overflow-x: hidden;
+}
+container {
+  max-width: 1250px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding: 0px 40px;
+  position: relative;
+  clear: both;
+}
+.container .wide {
+  max-width: 1480px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: sans-serif;
+  color: #24315e;
+}
+
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 16px;
+}
+
+/* navbar start */
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10;
+  border-bottom: 1px solid #24315e;
+  padding: 2px 0px;
+  padding-left: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 150px;
+}
+
+.navbar li ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.navbar li ul li a {
+  text-decoration: none;
+  color: #24315e;
+  font-size: 20px;
+  padding: 10px;
+}
+.download_button {
+  font-size: 18px;
+}
+
+.download_button {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 12px 20px 12px 20px;
+  background-color: #24315e;
+  color: white;
+  font-size: 18px;
+}
+.download_button:hover {
+  background-color: white;
+  color: #24315e;
+}
+
+.navbar li ul li {
+  padding: 10px;
+}
+/* navbar end */
+
+/* hero start */
+
+.trito_tm_section {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+}
+
+.icons {
+  padding-top: 500px;
+  padding-left: 100px;
+  margin: 10px;
+}
+
+.icons a {
+  padding: 10px;
+}
+.hero {
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero-left {
+  padding-top: 200px;
+  padding-left: 170px;
+}
+
+.james {
+  font-size: 65px;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+.hi {
+  font-size: 48px;
+  color: #24315e;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.web {
+  font-size: 28px;
+  font-weight: 600;
+  color: #24315e;
+  margin-bottom: 60px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+}
+.hero .say-btn {
+  width: auto;
+}
+.say-btn {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+.say-btn a {
+  color: #24315e;
+  border: 2px solid #24315e;
+  display: inline-block;
+  background-color: #fff;
+  font-family: sans-serif;
+  font-weight: 500;
+  padding: 17px 40px;
+  text-decoration: none;
+}
+.say-btn a:hover {
+  background-color: #24315e;
+  color: #fff;
+}
+
+.hero .work-btn {
+  margin-left: 50px;
+}
+.work-btn a {
+  color: #24315e;
+  font-family: sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+
+.work-btn a:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #24315e;
+  bottom: 0px;
+  left: 0px;
+}
+
+.work-btn a:hover:before {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.hero-left .quote {
+  position: absolute;
+  bottom: 25px;
+  left: 180px;
+  max-width: 400px;
+}
+.hero .quote p {
+  color: #24315e;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-style: italic;
+  position: relative;
+  line-height: 25px;
+}
+.hero .quote .svg {
+  position: absolute;
+  top: 0px;
+  left: -4px;
+  width: 50px;
+  height: 50px;
+}
+
+.hero .hero-right {
+  /* margin-bottom: 0px;
+    width: 600px;
+    padding-top: 110px; */
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 50%;
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+}
+.hero .hero-right img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.hero .social {
+  position: absolute;
+  bottom: 30px;
+  right: 100px;
+  z-index: 2;
+}
+.hero .social ul {
+  margin: 0px;
+  list-style-type: none;
+}
+.hero .social ul li {
+  margin: 0px 15px 5px 0px;
+  display: inline-block;
+}
+.hero .social ul li:last-child {
+  margin-right: 0px;
+}
+.hero .social ul li a {
+  display: inline-block;
+  position: relative;
+  width: 46px;
+  height: 46px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.hero .social ul li a i {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  font-size: 20px;
+}
+
+/* hero end */
+
+/* Partners start */
+
+.trito_tm_partner {
+  width: 100%;
+  height: 150px;
+  clear: both;
+  float: left;
+  background-color: #24315e;
+  padding: 70px 0px 75px 0px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.trito_tm_partner .title span {
+  display: inline-block;
+  color: #fff;
+  font-family: var(--font-family-grotesk);
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+}
+.trito_tm_partner .title span:before {
+  position: absolute;
+  content: "";
+  width: 125px;
+  height: 0.5px;
+  background-color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 100%;
+  margin-right: 12px;
+}
+.trito_tm_partner .title span:after {
+  position: absolute;
+  content: "";
+  width: 125px;
+  height: 0.5px;
+  background-color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 100%;
+  margin-left: 12px;
+}
+.trito_tm_partner .partners_list {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  position: relative;
+  margin-top: 15px;
+}
+.trito_tm_partner .partners_list ul {
+  margin: 0px;
+  list-style-type: none;
+}
+.trito_tm_partner .partners_list ul li {
+  margin: 0px;
+}
+
+.trito_tm_partner .partners_list ul li:hover img {
+  opacity: 1;
+}
+/* partners end */
+
+/* features start */
+
+.trito_tm_features {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  margin-bottom: 100px;
+}
+.trito_tm_features .features_list {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+.trito_tm_features ul {
+  margin: 0px 200px 0px 250px;
+  list-style-type: none;
+}
+.trito_tm_features ul li {
+  margin: 0px 0px 40px 0px;
+  float: left;
+  padding-left: 5%;
+  width: 25.3333%;
+  position: relative;
+}
+.trito_tm_features ul li .list_inner {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  position: relative;
+  padding-right: 60px;
+}
+
+.trito_tm_features ul li .list_inner:hover:after {
+  height: 100%;
+}
+.trito_tm_features ul li:last-child .list_inner:before {
+  display: none;
+}
+.trito_tm_features ul li:last-child .list_inner:after {
+  display: none;
+}
+.trito_tm_features ul li .list_inner {
+  width: 60%;
+  height: auto;
+  clear: both;
+  float: left;
+  position: relative;
+}
+.trito_tm_features ul li .title {
+  position: relative;
+  margin-bottom: 23px;
+}
+.trito_tm_features ul li .title .svg {
+  position: absolute;
+  left: 0px;
+  top: -7px;
+  width: 50px;
+  height: 50px;
+}
+.trito_tm_features ul li .title h3 {
+  font-size: 30px;
+  padding-left: 67px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+/* features end */
+
+@media (max-width: 1600px) {
+  body {
+    font-size: 16px;
+    line-height: 29px;
+  }
+  .container {
+    max-width: 1130px;
+    padding: 0px 30px;
+  }
+  .container.wide {
+    max-width: 1200px;
+  }
+  .trito_tm_header .button a {
+    padding: 10px 30px 9px 30px;
+  }
+  .trito_tm_header .logo img {
+    max-width: 140px;
+    max-height: 40px;
+  }
+  .trito_tm_header {
+    padding: 15px 0px;
+  }
+  .trito_tm_header.animate {
+    padding: 10px 0px;
+  }
+  .trito_tm_header.animate .button a {
+    padding: 5px 30px 4px 30px;
+  }
+  .trito_tm_hero .hi {
+    font-size: 35px;
+  }
+  .trito_tm_hero .name {
+    font-size: 65px;
+    margin-bottom: 15px;
+  }
+  .trito_tm_hero .text {
+    font-size: 21px;
+    margin-bottom: 40px;
+  }
+  .trito_tm_button a {
+    padding: 8px 33px;
+  }
+  .trito_tm_hero .simple_button {
+    margin-left: 30px;
+  }
+  .trito_tm_hero .quote {
+    bottom: 32px;
+  }
+  .trito_tm_hero .social {
+    bottom: 25px;
+    right: 110px;
+  }
+  .trito_tm_hero .social ul li a {
+    width: 45px;
+    height: 45px;
+  }
+  .trito_tm_hero .social ul li {
+    margin-right: 8px;
+  }
+  .trito_tm_hero .avatar img {
+    max-width: 500px;
+    max-height: 500px;
+  }
+  .trito_tm_partner {
+    padding-bottom: 60px;
+  }
+  .trito_tm_features ul li .title .svg {
+    width: 45px;
+    height: 45px;
+  }
+  .trito_tm_features ul li .title h3 {
+    font-size: 27px;
+  }
+  .trito_tm_main_title span {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .trito_tm_main_title h3 {
+    font-size: 50px;
+  }
+  .trito_tm_main_title {
+    max-width: 600px;
+  }
+  .trito_tm_counter_section .in h3 {
+    font-size: 60px;
+  }
+  .trito_tm_counter_section .title {
+    font-size: 21px;
+    padding-left: 25px;
+  }
+  .trito_tm_button_extra a {
+    padding: 13px 35px;
+  }
+  .trito_tm_about .right .text {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+  .trito_tm_about .right .text p {
+    margin-bottom: 20px;
+  }
+  .trito_tm_portfolio .details h3 {
+    font-size: 27px;
+  }
+  .trito_tm_portfolio .details {
+    padding: 20px 35px;
+  }
+  .trito_tm_news .details .title h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .trito_tm_contact .left ul li a {
+    font-size: 32px;
+  }
+  .trito_tm_contact .right {
+    padding-bottom: 35px;
+  }
+  .trito_tm_contact .icon {
+    left: -30px;
+  }
+  .trito_tm_contact .icon2 {
+    right: -20px;
+  }
+  .trito_tm_freelance .shape {
+    left: -52px;
+  }
+  .trito_tm_freelance .shape2 {
+    right: -70px;
+  }
+  .trito_tm_modalbox .box_inner {
+    width: 700px;
+    top: 50px;
+    bottom: 50px;
+  }
+  .trito_tm_modalbox .description_wrap:before {
+    height: 40px;
+  }
+  .trito_tm_modalbox .description_wrap:after {
+    height: 40px;
+  }
+  .trito_tm_modalbox .description_wrap {
+    padding: 40px;
+  }
+  .trito_tm_modalbox .close {
+    margin-left: 20px;
+  }
+
+  .trito_tm_intro .main_title {
+    top: 75px;
+  }
+  .trito_tm_intro .main_title p {
+    font-size: 20px;
+  }
+  .trito_tm_intro .main_title img {
+    margin-bottom: 15px;
+  }
+  .trito_tm_intro .list {
+    max-width: 900px;
+  }
+  .trito_tm_intro .list ul li h3 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1040px) {
+  body {
+    font-size: 15px;
+  }
+  .mouse-cursor {
+    display: none;
+  }
+  #preloader {
+    display: none;
+  }
+  .container {
+    padding: 0px 20px;
+  }
+  .trito_tm_header {
+    display: none;
+  }
+  .trito_tm_mobile_menu {
+    display: block;
+  }
+  .trito_tm_hero .details {
+    width: 100%;
+  }
+  .trito_tm_hero .content {
+    padding-right: 0px;
+    width: 100%;
+  }
+  .trito_tm_hero .text {
+    font-size: 19px;
+  }
+  .trito_tm_hero .hi {
+    font-size: 20px;
+  }
+  .trito_tm_features ul li {
+    width: 50%;
+  }
+  .trito_tm_hero .social {
+    display: none;
+  }
+  .trito_tm_features ul li .list_inner:after {
+    display: none;
+  }
+  .trito_tm_features ul li .list_inner:before {
+    display: none;
+  }
+  .trito_tm_skills .skills_in {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .trito_tm_skills .left {
+    padding-right: 0px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .trito_tm_skills .right .content {
+    padding: 50px 40px 30px 40px;
+  }
+  .trito_tm_skills .right .content ul li {
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+  .trito_tm_skills .right {
+    width: 100%;
+  }
+  .trito_tm_skills .shape1 {
+    display: none;
+  }
+  .trito_tm_skills .shape2 {
+    display: none;
+  }
+  .trito_tm_counter_section ul li {
+    width: 50%;
+  }
+  .trito_tm_about .shape {
+    display: none;
+  }
+  .trito_tm_about .shape2 {
+    display: none;
+  }
+  .trito_tm_about .about_in {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .trito_tm_about .left img {
+    max-height: 450px;
+  }
+  .trito_tm_about .experience {
+    bottom: 30px;
+    left: 0px;
+    padding: 15px 25px 12px 25px;
+  }
+  .trito_tm_about .experience h3 {
+    font-size: 40px;
+  }
+  .trito_tm_about .experience span {
+    font-size: 17px;
+    padding-left: 12px;
+  }
+  .trito_tm_about .left {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .trito_tm_about .right {
+    padding-left: 0px;
+    width: 100%;
+  }
+  .trito_tm_testimonials ul li {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .trito_tm_testimonials .left {
+    padding-right: 0px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .trito_tm_testimonials .right {
+    padding-left: 0px;
+    width: 100%;
+  }
+  .trito_tm_testimonials .big p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .trito_tm_testimonials .big .svg {
+    width: 120px;
+    height: 120px;
+  }
+  .trito_tm_portfolio ul li {
+    width: 50% !important;
+  }
+  .trito_tm_portfolio .details h3 {
+    font-size: 20px;
+  }
+  .trito_tm_portfolio .details .svg {
+    width: 30px;
+    height: 30px;
+  }
+  .trito_tm_portfolio .details {
+    padding: 15px 20px;
+  }
+  .trito_tm_freelance .shape {
+    display: none;
+  }
+  .trito_tm_freelance .shape2 {
+    display: none;
+  }
+  .trito_tm_freelance .text p {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .trito_tm_freelance .text {
+    margin-bottom: 30px;
+  }
+  .trito_tm_news .news_list ul li {
+    width: 50%;
+  }
+  .trito_tm_contact .icon {
+    display: none;
+  }
+  .trito_tm_contact .icon2 {
+    display: none;
+  }
+  .trito_tm_contact .content {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .trito_tm_contact .left {
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
+  .trito_tm_contact .right {
+    top: 0px;
+    width: 100%;
+  }
+  .trito_tm_contact .left ul li a {
+    font-size: 22px;
+  }
+  .trito_tm_contact .copy {
+    padding: 20px 20px 25px 20px;
+  }
+  .trito_tm_contact .right {
+    padding: 45px 30px 40px 30px;
+  }
+  .trito_tm_contact input {
+    padding: 20px;
+  }
+  .trito_tm_contact textarea {
+    padding: 20px;
+  }
+  .accordion .accordion_header p {
+    font-size: 22px;
+  }
+  .trito_tm_modalbox .box_inner {
+    width: 300px;
+  }
+  .trito_tm_modalbox .description_wrap:before {
+    height: 20px;
+  }
+  .trito_tm_modalbox .description_wrap:after {
+    height: 20px;
+  }
+  .trito_tm_modalbox .description_wrap {
+    padding: 20px;
+  }
+  .trito_tm_modalbox .portfolio_main_title h3 {
+    font-size: 22px;
+  }
+  .trito_tm_modalbox .main_details {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .trito_tm_modalbox .main_details .textbox {
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .trito_tm_modalbox .main_details .detailbox {
+    padding: 0px;
+    width: 100%;
+  }
+  .trito_tm_modalbox .additional_images ul {
+    margin: 0px;
+  }
+  .trito_tm_modalbox .additional_images ul li {
+    width: 100% !important;
+    padding-left: 0px;
+  }
+  .trito_tm_modalbox .box_inner {
+    top: 70px;
+    bottom: 70px;
+  }
+  .trito_tm_modalbox .close {
+    margin-left: 0px;
+    left: auto;
+    right: 0px;
+    top: -40px;
+  }
+  .trito_tm_modalbox .close a {
+    width: 30px;
+    height: 30px;
+  }
+  .trito_tm_modalbox .news_popup_informations .title h3 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 768px) {
+  .trito_tm_features ul {
+    margin: 0px;
+  }
+  .trito_tm_features ul li {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .trito_tm_features ul li .title h3 {
+    font-size: 25px;
+  }
+  .trito_tm_main_title h3 {
+    font-size: 35px;
+  }
+  .trito_tm_counter_section ul {
+    margin: 0px;
+  }
+  .trito_tm_counter_section ul li {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .trito_tm_portfolio ul li {
+    width: 100% !important;
+  }
+  .trito_tm_news .news_list ul {
+    margin: 0px;
+  }
+  .trito_tm_news .news_list ul li {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .trito_tm_news .details .title h3 {
+    font-size: 20px;
+  }
+  .trito_tm_news .news_list ul li .image {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* skills */
+
+.skills1{
+  position:absolute;
+  top: 108%;
+  left: 35%;
+
+}
+
+.skillsright{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-image: url('https://itemsstore.net/html/trito/img/skills/1.jpg');
+  width: 500px;
+}
+.skillsright div{
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  font-size: 24px;
+  border: 1px solid rgb(60, 60, 84);
+  color: rgb(87, 87, 156);
+}
